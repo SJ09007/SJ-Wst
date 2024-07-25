@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shruti's Portfolio</title>
+    <link rel="stylesheet" href="about1.css">
+</head>
+
+<body>
+    <div id="home">
+    <nav class="topbar">
+       <img src="SJ1.png" id="logo" alt="Logo"> 
+       <div class="nav_element">
+        <a href="#home" style="text-decoration: none;"><h4 class="bars">Home</h4></a>
+       </div> 
+       <div class="nav_element">
+        <a href="#sec2" style="text-decoration: none;"><h4 class="bars">About me</h4></a>
+       </div> 
+       <div class="nav_element">
+        <a href="#sec3" style="text-decoration: none;"> <h4 class="bars">Projects</h4></a>
+       </div> 
+       <div class="nav_element">
+        <a href="#sec4" style="text-decoration: none;"><h4 class="bars">Contact Me</h4></a>
+       </div> 
+    </nav>
+    </div>
+    <div id="sec1">
+    <h1 style="color:white;font-size:100px;">Hello There,</h1>
+    <h1 style="color:white;font-size:100px;margin-top: -45px;">Welcome to my <span id="wd">Blank Story.</span> </h1>
+    </div>
+    <div style="position:absolute;top:610px;left:740px;">
+    <p style="color:white;">Scroll down</p>
+    <img src="Scroll_down.gif" width="50px" height="70px" id="scroll">
+    </div>
+    <div id="sec2">
+        <div style="width:218px;margin:auto">
+        <h1 style="color:white;font-size:50px; border-bottom: 5px solid yellow;">About Me</h1>
+        </div>
+        <div id="flex">
+        <div id="flex1">
+        <img src="SJ_Main.png" width="300px;" id="photo">
+        <div id="box"></div>
+        </div>
+        <div id="flex2">
+<p style="color:white;margin:15px;font-size:20px;font-family:georgia;line-height:40px;">
+    I'm <span style="color:yellow;">Shruti Jain</span>, 
+    a passionate individual pursuing an Integrated <span style="color:yellow;">Bachelor's and Master's degree in Information Technology (IT)</span> from 
+    <span style="color:yellow;">IIPS (International Institute of Professional Studies, DAVV)</span> in Indore. 
+    I am a <span style="color:yellow;">Front-End Developer</span> with a keen interest in coding and an eagerness to continually learn and grow.
+    <br>
+    In addition to my technical skills, 
+    I possess strong <span style="color:yellow;">communication abilities</span> and 
+    an innate ability to work well in a <span style="color:yellow;">team environment</span>. 
+    I'm eager to use my skills and passion to make a positive impact in the tech field.
+    <br>Constantly looking forward to upskilling myself,
+    I’m always open to new challenges and opportunities. 
+    Feel free to reach out—I’d love to connect and explore how we can collaborate to bring your ideas to life!
+</p>
+
+        </div>
+        </div>
+    </div>
+    <div id="sec3">
+        <h1 style="color:white;font-size:50px;border-bottom:4px solid yellow;width:259px;margin:auto;" >My Projects</h1>
+    <div id="project_slider">
+        <div class="slider">
+            <img src="landscape1.jpg" alt="image1" class="slide" height="500px" width="50%">
+            <img src="landscape2.jpg" alt="image2" class="slide" height="500px" width="50%">
+            <img src="landscape3.jpg" alt="image3" class="slide" height="500px" width="50%">
+            <img src="landscape4.jpg" alt="image4" class="slide" height="500px" width="50%">
+            <div class="button-nav1">
+                <button onclick="PrevSlide()" id="prev" class="slider-button">
+                <   
+                </button>
+            </div>
+            <div class="button-nav2">
+                <button onclick="NextSlide()" id="next" class="slider-button">
+                >
+                </button>
+            </div>  
+        </div>
+    </div>
+       
+       
+    </div>
+    <div id="sec4">
+        <h1 style="color:white;font-size:40px;border-bottom:4px solid yellow;width:275px;margin:auto;z-index:1;position:relative;top:105px;" >CONTACT ME</h1>
+        <div id="social">
+            <div class="logos"><a href="https://www.instagram.com"><img src="insta icon.png" alt="instagram"></a></div>
+            <div class="logos"><a href="https://www.linkedin.com/in/shruti-jain-a08654195/"><img src="linkedin icon.png" alt="linkedin"></a></div>
+            <div class="logos"><a href="https://github.com/SJ09007"><img src="github icon.png" alt="github"></a></div>
+            <!-- <div class="logos"><img src=""></div> -->
+            
+        </div>
+        <div id="contact">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+		xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice">
+		<defs>
+			<linearGradient id="bg">
+				<stop offset="0%" style="stop-color:rgba(130, 158, 249, 0.06)"></stop>
+				<stop offset="50%" style="stop-color:rgba(76, 190, 255, 0.6)"></stop>
+				<stop offset="100%" style="stop-color:rgba(115, 209, 72, 0.2)"></stop>
+			</linearGradient>
+			<path id="wave" fill="url(#bg)" d="M-363.852,502.589c0,0,236.988-41.997,505.475,0
+	s371.981,38.998,575.971,0s293.985-39.278,505.474,5.859s493.475,48.368,716.963-4.995v560.106H-363.852V502.589z" />
+		</defs>
+		<g>
+			<use xlink:href='#wave' opacity=".3">
+				<animateTransform
+          attributeName="transform"
+          attributeType="XML"
+          type="translate"
+          dur="10s"
+          calcMode="spline"
+          values="370 230; -334 180; 270 230"
+          keyTimes="0; .5; 1"
+          keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+          repeatCount="indefinite" />
+			</use>
+			<use xlink:href='#wave' opacity=".6">
+				<animateTransform
+          attributeName="transform"
+          attributeType="XML"
+          type="translate"
+          dur="8s"
+          calcMode="spline"
+          values="-270 230;243 220;-270 230"
+          keyTimes="0; .6; 1"
+          keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+          repeatCount="indefinite" />
+			</use>
+			<use xlink:href='#wave' opacty=".9">
+				<animateTransform
+          attributeName="transform"
+          attributeType="XML"
+          type="translate"
+          dur="6s"
+          calcMode="spline"
+          values="0 230;-140 200;0 230"
+          keyTimes="0; .4; 1"
+          keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+          repeatCount="indefinite" />
+			</use>
+		</g>
+	</svg>
+        </div>
+      
+    </div>
+</div>
+  <script src="aboutMe.js"></script>
+</html> 
