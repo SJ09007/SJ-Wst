@@ -210,3 +210,29 @@ svg {
     object-fit: contain;
     filter: drop-shadow(4px 2px 2px black);
 }
+
+#sec5 {
+    background-color: #1c1c1c;
+    padding: 40px 0;
+}
+
+.video-frame {
+    margin: 10px;
+}
+
+a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
