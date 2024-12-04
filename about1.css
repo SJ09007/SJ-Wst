@@ -27,6 +27,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover; */
     background-color: #101820; /* Black */
+    padding-top: 50px;
 }
 .container {
     width: 200px;
