@@ -15,7 +15,7 @@
   align-items: center; /* Vertically centers the content */
   justify-content: center; /* Centers the content horizontally */
   z-index: 6; /* Keeps the bar above other content */
-  gap : 45px ; 
+  gap : 100px ; 
 }
 
 
