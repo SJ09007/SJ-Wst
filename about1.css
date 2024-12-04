@@ -3,20 +3,21 @@
     initial-value: 0deg;
     inherits: false;
 }
+
 .topbar {
   background-color: #000000;
-  width: 100%; /* Ensures the bar stretches across the full width */
-  height: 50px; /* Sets the height of the bar */
-  position: fixed; /* Fixes the top bar at the top of the page */
+  width: 100%;
+  height: 50px;
+  position: fixed;
   top: 0px;
   left: 0px;
   right: 0px;
   display: flex;
   align-items: center; /* Vertically centers the content */
-  justify-content: center; /* Centers the content horizontally */
-  z-index: 6; /* Keeps the bar above other content */
+  justify-content: flex-end; /* Aligns the content to the right */
+  gap: 20px; /* Adds space between items */
+  z-index: 6;
 }
-
 
 .nav_element:hover {
     background-color: #eec7b5ef; /*Light Brown*/
