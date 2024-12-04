@@ -16,7 +16,7 @@
   align-items: center; /* Vertically centers the content */
   z-index: 6; /* Keeps the navbar above other content */
   padding: 0 30px 0 0; /* Adds padding to the right */
-  gap: 30px; /* Space between the items in the top bar */
+  gap: 40px; /* Space between the items in the top bar */
 }
 
 
