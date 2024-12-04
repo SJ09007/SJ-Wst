@@ -15,7 +15,7 @@
   justify-content: flex-end; /* Aligns content to the right */
   align-items: center; /* Vertically centers the content */
   z-index: 6; /* Keeps the navbar above other content */
-  padding-right: 400px; /* Optional: Adds space between the content and the right edge */
+  padding: 0 30px 0 0; /* Adds padding to the right */
   gap: 30px; /* Space between the items in the top bar */
 }
 
