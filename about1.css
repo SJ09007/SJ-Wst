@@ -5,7 +5,7 @@
 }
 
 .topbar {
-  background-color: #000000;
+  background-color: #101820;
   width: 100%; /* Ensures the bar stretches across the full width */
   height: 50px; /* Sets the height of the bar */
   position: fixed; /* Fixes the top bar at the top of the page */
