@@ -3,9 +3,8 @@
     initial-value: 0deg;
     inherits: false;
 }
-
 .topbar {
-  background-color: #101820;
+  background-color: #000000;
   width: 100%; /* Ensures the bar stretches across the full width */
   height: 50px; /* Sets the height of the bar */
   position: fixed; /* Fixes the top bar at the top of the page */
@@ -16,21 +15,18 @@
   align-items: center; /* Vertically centers the content */
   justify-content: center; /* Centers the content horizontally */
   z-index: 6; /* Keeps the bar above other content */
-  gap: 20px;
 }
 
 
 .nav_element:hover {
     background-color: #eec7b5ef; /*Light Brown*/
     transition: 1s;
-    padding-top: 50px; /* Add space equal to the height of the topbar */
 }
 body {
     /* background-image: url("https://i.pinimg.com/originals/25/6d/c3/256dc3c78131916afe72e520273ccccf.jpg");
     background-repeat: no-repeat;
     background-size: cover; */
     background-color: #101820; /* Black */
-    padding-top: 50px;
 }
 .container {
     width: 200px;
@@ -47,7 +43,7 @@ body {
     height: 100px;
     width: 140px;
     position: absolute;
-    margin-top: -25px;
+    margin-top: 25px;
     left: 1px;
 }
 .bars {
@@ -239,4 +235,3 @@ h1 {
     color: white;
     text-align: center;
 }
-
