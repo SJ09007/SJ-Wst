@@ -4,7 +4,7 @@
     inherits: false;
 }
 .topbar {
-  background-color: #000000;
+  background-color: #101820;
   width: 100%; /* Ensures the bar stretches across the full width */
   height: 50px; /* Sets the height of the bar */
   position: fixed; /* Fixes the top bar at the top of the page */
@@ -15,6 +15,7 @@
   align-items: center; /* Vertically centers the content */
   justify-content: center; /* Centers the content horizontally */
   z-index: 6; /* Keeps the bar above other content */
+  gap : 30px ; 
 }
 
 
