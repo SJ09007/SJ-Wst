@@ -4,19 +4,21 @@
     inherits: false;
 }
 .topbar {
-  background-color: #101820;
+  background-color: #101820; /* Dark background color */
   width: 100%; /* Ensures the bar stretches across the full width */
   height: 50px; /* Sets the height of the bar */
-  position: sticky; /* Fixes the top bar at the top of the page */
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  display: flex;
-  z-index: 6; /* Keeps the bar above other content */
-  align: right;
-  margin-right: 50px;
-  gap : 30px ; 
+  position: fixed; /* Fixes the navbar at the top of the page */
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex; /* Use flexbox to align items */
+  justify-content: flex-end; /* Aligns content to the right */
+  align-items: center; /* Vertically centers the content */
+  z-index: 6; /* Keeps the navbar above other content */
+  padding-right: 20px; /* Optional: Adds space between the content and the right edge */
+  gap: 30px; /* Space between the items in the top bar */
 }
+
 
 
 .nav_element:hover {
